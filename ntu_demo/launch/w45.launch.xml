@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+
+<launch>
+
+  <arg name="use_sim_time" default="false"/>
+
+  <!-- Ward45Bot fleet adapter -->
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
+      <arg name="fleet_name" value="w45bot"/>
+      <arg name="use_sim_time" value="$(var use_sim_time)"/>
+      <arg name="reversible" value="false"/>
+      <arg name="vicinity_radius" value="1.5"/>
+      <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu/nav_graphs/2.yaml" />
+  </include>
+  
+  <!-- Ward45Bot ff server -->
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server.launch.xml">
+      <arg name="fleet_name" value="w45bot"/>
+      <arg name="dds_domain" value="8"/> 
+  </include>
+
+</launch>
