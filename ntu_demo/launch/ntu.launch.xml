@@ -30,13 +30,13 @@
   </group-->
   
     <!-- Ward45Bot fleet adapter -->
-  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
+  <!--include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
       <arg name="fleet_name" value="w45bot"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="reversible" value="false"/>
       <arg name="vicinity_radius" value="1.5"/>
       <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu/nav_graphs/2.yaml" />
-  </include>
+  </include-->
   
   <!-- missybot fleet adapter -->
   <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
@@ -45,6 +45,13 @@
       <arg name="vicinity_radius" value="0.8"/>
       <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu/nav_graphs/1.yaml" />
   </include>
+
+
+ <!-- trolley fleet adapter -->
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/trolley_bed_adapter.launch.xml">
+  </include>
+
+
 
   <!-- unitree fleet adapter -->
   <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
@@ -57,15 +64,15 @@
 
 
   <!-- Ward45Bot ff server -->
-  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server.launch.xml">
+  <!--include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server.launch.xml">
       <arg name="fleet_name" value="w45bot"/>
       <arg name="dds_domain" value="8"/> 
-  </include>
+  </include-->
 
   <!-- missybot ff server -->
   <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server.launch.xml">
       <arg name="fleet_name" value="missybot"/>
-      <arg name="dds_domain" value="6"/> 
+      <arg name="dds_domain" value="5"/> 
 
   </include>
 

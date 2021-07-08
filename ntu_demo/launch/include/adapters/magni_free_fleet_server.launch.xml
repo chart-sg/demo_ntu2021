@@ -2,11 +2,11 @@
 
 <launch>
   
-  <arg name="fleet_name" default ="magni" description="Fill in the name of the fleet here"/>
+  <arg name="fleet_name" default ="missybot" description="Fill in the name of the fleet here"/>
   <arg name="dds_domain" default ="6" description="Please match this with the free fleet server's dds domain"/>
   <arg name="translation_x" default="129.126"/>
   <arg name="translation_y" default="126.016"/>
-  <arg name="rotation" default="-1.49"/>
+  <arg name="rotation" default="-1.48"/>
   <arg name="scale" default="0.974"/>
 
   <node pkg="free_fleet_server_ros2"
