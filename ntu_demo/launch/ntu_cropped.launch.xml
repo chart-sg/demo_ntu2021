@@ -31,7 +31,7 @@
   
     <!-- Ward45Bot fleet adapter -->
   <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
-      <arg name="fleet_name" value="w45bot"/>
+      <arg name="fleet_name" value="Romio"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="reversible" value="false"/>
       <arg name="vicinity_radius" value="0.5"/>
@@ -54,18 +54,18 @@
 
 
   <!-- unitree fleet adapter -->
-  <!--include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_adapter.launch.xml">
       <arg name="fleet_name" value="unitree"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="vicinity_radius" value="0.8"/>
       <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu_cropped/nav_graphs/0.yaml" />
-  </include-->
+  </include>
  
 
 
   <!-- Ward45Bot ff server -->
   <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server_cropped.launch.xml">
-      <arg name="fleet_name" value="w45bot"/>
+      <arg name="fleet_name" value="Romio"/>
       <arg name="dds_domain" value="8"/> 
   </include>
 

@@ -4,10 +4,10 @@
   
   <arg name="fleet_name" default ="unitree" description="Fill in the name of the fleet here"/>
   <arg name="dds_domain" default ="7" description="Please match this with the free fleet server's dds domain"/>
-  <arg name="translation_x" default="-153.44"/>
-  <arg name="translation_y" default="149.76"/>
-  <arg name="rotation" default="-0.017"/>
-  <arg name="scale" default="0.97"/>
+  <arg name="translation_x" default="80.67"/>
+  <arg name="translation_y" default="-81.79"/>
+  <arg name="rotation" default="0.02"/>
+  <arg name="scale" default="0.99"/>
 
   <node pkg="free_fleet_server_ros2"
       exec="free_fleet_server_ros2"

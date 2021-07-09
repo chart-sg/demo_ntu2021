@@ -1,0 +1,120 @@
+- operation: Add
+  participant_description:
+    name: Bed001
+    group: BedFleetA
+    responsiveness: Unresponsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 1.5
+        - 1
+- operation: Add
+  participant_description:
+    name: missybot
+    group: missy
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 0.5
+        - 1.5
+- operation: Add
+  participant_description:
+    name: Ward45Bot
+    group: w45bot
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 0.5
+        - 0.5
+- operation: Add
+  participant_description:
+    name: Ward45Bot
+    group: Romio
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 0.5
+        - 0.5
+- operation: Add
+  participant_description:
+    name: Romio
+    group: Romio
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 0.5
+        - 0.5
+- operation: Add
+  participant_description:
+    name: BOK001
+    group: BedFleetA
+    responsiveness: Unresponsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 1.5
+        - 1
+- operation: Add
+  participant_description:
+    name: Trolley
+    group: BedFleetA
+    responsiveness: Unresponsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 1.5
+        - 1
+- operation: Add
+  participant_description:
+    name: MissyBot
+    group: missy
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: "\x00"
+      vicinity:
+        type: Circle
+        index: "\x01"
+      shape_context:
+        - 0.5
+        - 1.5
