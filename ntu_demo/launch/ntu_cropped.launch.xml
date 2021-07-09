@@ -34,7 +34,7 @@
       <arg name="fleet_name" value="w45bot"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="reversible" value="false"/>
-      <arg name="vicinity_radius" value="1.5"/>
+      <arg name="vicinity_radius" value="0.5"/>
       <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu_cropped/nav_graphs/2.yaml" />
   </include>
   
@@ -64,17 +64,17 @@
 
 
   <!-- Ward45Bot ff server -->
-  <!--include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server_cropped.launch.xml">
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server_cropped.launch.xml">
       <arg name="fleet_name" value="w45bot"/>
       <arg name="dds_domain" value="8"/> 
-  </include-->
+  </include>
 
   <!-- missybot ff server -->
-  <!--include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server_cropped.launch.xml">
+  <include file="$(find-pkg-share ntu_demo)/include/adapters/magni_free_fleet_server_cropped.launch.xml">
       <arg name="fleet_name" value="missy"/>
       <arg name="dds_domain" value="5"/> 
 
-  </include-->
+  </include>
 
   <!-- unitree A1 ff server -->
   <!--include file="$(find-pkg-share ntu_demo)/include/adapters/unitree_free_fleet_server.launch.xml">

@@ -10,7 +10,7 @@
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="reversible" value="false"/>
       <arg name="vicinity_radius" value="1.5"/>
-      <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu/nav_graphs/2.yaml" />
+      <arg name="nav_graph_file" value="$(find-pkg-share ntu_demo_maps)/maps/ntu_cropped/nav_graphs/2.yaml" />
   </include>
   
   <!-- Ward45Bot ff server -->

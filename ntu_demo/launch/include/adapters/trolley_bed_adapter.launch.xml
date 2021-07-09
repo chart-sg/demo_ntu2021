@@ -24,7 +24,7 @@
 
       <!-- The radius of the circular footprint of this fleet's vehicles -->
       <!--<arg name="footprint_radius" value="1.2"/>-->
-      <arg name="footprint_radius" value="3.5"/>
+      <arg name="footprint_radius" value="1.5"/>
 
       <!-- Other robots are not allowed within this radius -->
       <arg name="vicinity_radius" value="1.0"/>
