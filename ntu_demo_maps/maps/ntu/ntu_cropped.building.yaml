@@ -27,8 +27,6 @@ levels:
       - [9, 10, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], orientation: [1, ""]}]
       - [10, 11, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], orientation: [1, ""]}]
       - [11, 12, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], orientation: [1, ""]}]
-      - [5, 13, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
-      - [13, 14, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [12, 17, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], orientation: [1, ""]}]
       - [14, 15, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
       - [15, 16, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
@@ -36,6 +34,9 @@ levels:
       - [20, 21, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [21, 22, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [22, 19, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
+      - [5, 23, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [23, 13, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
+      - [13, 14, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], orientation: [1, ""]}]
     layers:
       {}
     measurements:
@@ -54,8 +55,8 @@ levels:
       - [1422.453, 2009.565, 0, w45_2]
       - [1624.978, 2002.174, 0, w45bot_glassdoor_1]
       - [1646.925, 1960.54, 0, w45bot_glassdoor_2]
-      - [1486.155, 2251.98, 0, missybot_safeentry_start]
-      - [1491.894, 2025.781, 0, missybot_safeentry_end]
+      - [1496.507, 2265.822, 0, missybot_safeentry_start]
+      - [1494.891, 2025.708, 0, missybot_safeentry_end]
       - [1511.883, 1952.039, 0, missybot_glassdoor_1]
       - [1513.056, 1973.158, 0, missybot_end]
       - [1619.604, 1948.304, 0, w45bot_end]
@@ -64,5 +65,6 @@ levels:
       - [3003.057, 3115.226, 0, ""]
       - [1470.52, 3110.796, 0, "", {is_charger: [4, true]}]
       - [1452.938, 2995.668, 0, ""]
+      - [1499.171, 2237.847, 0, ""]
 lifts: {}
 name: ntu_cropped
